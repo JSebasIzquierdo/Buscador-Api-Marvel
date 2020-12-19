@@ -1,0 +1,41 @@
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    
+  }
+    .box-img {
+      height: 150px;
+      width: 210px;
+      border-radius: 5px;
+      filter: brightness(.8);
+      -webkit-filter: brightness(.8);
+    }
+    .title {
+      font-size: 1.1em;
+      margin: 10px 0;
+      width: 210px;
+    }
+  
+  
+  @media (max-width: 1340px) {
+    .container {
+      align-items: center;
+      flex-direction: column;
+    }
+    .card {
+      flex-direction: row;
+      align-items: center;
+      margin: 10px 0;
+      background-color: #eaeaea;
+      border-radius: 5px;
+    }
+    .box-img {
+      margin-right: 15px;
+    }
+  }
+    
+    
+    
+  

@@ -1,0 +1,27 @@
+.o-searchBar-value {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  input{
+    width: 800px;
+    height: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 1340px) {
+    .o-searchBar-value{
+      align-items: center;
+      flex-direction: column;
+    }
+
+    input {
+     width: 400px;
+    
+    }
+  }
